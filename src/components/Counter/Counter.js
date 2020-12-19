@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { increment, decrement, setLoggedInStatus } from '../../actions'
+import { increment, decrement, setLoggedInStatus } from '../../redux/actions'
 
 
 function Counter() {

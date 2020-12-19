@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
 import App from './App';
+import Store from './redux/store/store'
 import { Provider } from 'react-redux'
-import Store from './store'
+import './index.scss';
 
 const unsubscribe = Store.subscribe(() => {
   console.log('Store has changed!', Store.getState())

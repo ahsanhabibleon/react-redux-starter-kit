@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { addTodo, removeTodo, taskCompleted } from '../../actions'
+import { addTodo, removeTodo, taskCompleted } from '../../redux/actions'
 import './Todo.scss'
 
 
