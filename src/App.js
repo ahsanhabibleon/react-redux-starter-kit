@@ -1,5 +1,5 @@
 import './App.scss';
-import Counter from "./components/Counter/Counter";
+// import Counter from "./components/Counter/Counter";
 import Todos from "./components/Todos/Todos";
 
 function App() {
